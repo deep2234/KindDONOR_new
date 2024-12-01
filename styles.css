@@ -369,4 +369,8 @@ footer {
     margin-top: 20px;
 }
 
-
+.cause:hover {
+    box-shadow: 2px 2px 8px 2px #888888;
+    transition: font-size 0.3s;
+    font-size: large;
+}
