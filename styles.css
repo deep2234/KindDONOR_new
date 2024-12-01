@@ -5,6 +5,19 @@ body {
     line-height: 1.6;
 }
 
+/* Style for the logo image */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the logo image and text */
+}
+
+.logo-image {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    object-fit: contain; /* Ensures the logo doesn't distort */
+}
+
 .container {
     width: 90%;
     max-width: 1200px;
@@ -311,22 +324,22 @@ header nav ul {
 }
 
 .about h2, .causes h2, .contact h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .causes .cause-list {
     display: flex;
-    gap: 20px;
+    gap: 50px;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .causes .cause {
     flex: 1 1 calc(33% - 20px);
-    background: #f4f4f4;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 100px;
+    box-shadow: 0 4px 6px rgb(0, 50, 78);
 }
 
 .causes .cause h3 {
@@ -350,14 +363,14 @@ header nav ul {
 }
 
 .contact button {
-    background: #f04;
+    background: rgb(255, 0, 0);
     color: #fff;
     cursor: pointer;
     transition: background 0.3s;
 }
 
 .contact button:hover {
-    background: #c03;
+    background: rgb(189, 0, 0);
 }
 
 /* Footer */
@@ -370,7 +383,7 @@ footer {
 }
 
 .cause:hover {
-    box-shadow: 2px 2px 8px 2px #888888;
-    transition: font-size 0.3s;
-    font-size: large;
+    box-shadow: 2px 2px 8px 2px #ee0404;
+    transition: font-size 0.5s;
+    font-size: 17px;
 }
