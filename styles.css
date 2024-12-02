@@ -58,7 +58,7 @@ header .logo {
 
 header .logo h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 
 header .logo span {
@@ -66,6 +66,7 @@ header .logo span {
 }
 
 header nav ul {
+    font-size: 18px;
     list-style: none;
     float: right;
     margin: 0;
@@ -142,7 +143,7 @@ header nav ul {
 /* Change icon color to white */
 .icons-and-menu a {
     color: white; /* Set icon color to white */
-    font-size: 1.5em; /* Adjust size as needed */
+    font-size: 1.6em; /* Adjust size as needed */
     text-decoration: none; /* Remove underline if present */
     transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
@@ -165,7 +166,7 @@ header nav ul {
 .dropdown .dropbtn {
     background-color: transparent;
     color: white;
-    font-size: 1.2em;
+    font-size: 1.6em;
     border: none;
     cursor: pointer;
     text-decoration: none;
@@ -305,8 +306,17 @@ header nav ul {
     color: rgb(232, 252, 249);
       
     transition: font-size 0.2s;
-    font-size: 68px;
+    font-size: 69px;
+}
 
+@media(max-width: 1000px){/*makes the hero font smaller in phone size*/
+    .hero h2{
+        font-size: 40px;
+
+    }
+    .hero h2:hover{
+        font-size: 3.0rem;
+    }
 
 }
 
