@@ -1,6 +1,9 @@
 body {
 
-    background-image: url("backiee-179449.jpg");
+    background-image: url("image_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
@@ -11,42 +14,38 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background-image: url('imagesbackground.jpg'); /* Add the background image */
+    background-image: url('dbf0f3.png'); /* Add the background image */
     background-size: cover; /* Make the image cover the container */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
+    box-shadow: 0 5px 20px rgb(0, 0, 0);
+    border-radius: 15px;
 }
 
 h2, h3 {
     text-align: center;
-    color: #333;
-    margin-bottom: 20px;
+    color: #000000;  
+    margin-bottom: 25px;
+    
 }
 
 form {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 25px;
 }
 
-.donation-item {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
 
 label {
     font-size: 1.2rem;
-    color: #555;
+    color: #000000;
 }
 
 input, button {
-    font-size: 1rem;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    font-size: 1.1rem;
+    padding: 7px;
+    border: 2.0px solid #000000;
+    border-radius: 8px;
 }
 
 input[type="text"] {
@@ -58,7 +57,7 @@ input[type="number"] {
 }
 
 button {
-    background-color: #f04;
+    background-color: rgb(255, 24, 24);
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -76,7 +75,7 @@ button:hover {
 
 .add-more {
     text-align: right;
-    margin-top: -10px;
+    margin-top: -5px;
 }
 
 .add-more button {
@@ -85,19 +84,20 @@ button:hover {
 }
 
 .donate-money {
-    margin-top: 20px;
+    margin-top: 30px;
     text-align: center;
 }
 
 .donate-money a {
     color: #fff;
-    background-color: #333;
-    padding: 10px 20px;
+    background-color: #e82d2d;
+    padding: 12px 30px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 51px;
+    border: 3.7px solid #a70505c6;
     transition: background-color 0.3s ease;
 }
 
 .donate-money a:hover {
-    background-color: #555;
+    background-color: #c70000;
 }
