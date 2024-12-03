@@ -85,7 +85,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: rgb(255, 0, 0);
+    background:#f04;
     border-radius: 5px;
 }
 
@@ -150,7 +150,7 @@ header nav ul {
 
 /* Hover Effect */
 .icons-and-menu a:hover {
-    color: #f04; /* Change color on hover (e.g., red) */
+    color: rgb(255, 0, 0); /* Change color on hover (e.g., red) */
 }
 
 .manu i {
@@ -257,7 +257,7 @@ header nav ul {
 }
 
 .hero .btn {
-    background: rgb(255, 0, 0);
+    background:rgb(255, 0, 0);
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
