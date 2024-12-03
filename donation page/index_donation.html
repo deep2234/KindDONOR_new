@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="icon" type="image/png" href="favicon_21.png">
+    <link rel="stylesheet" href="styles_donation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <!-- Donation Section -->
+        <h2>Donate Items</h2>
+        <form id="donation-form">
+            <div id="donation-items">
+                <!-- Default donation item inputs -->
+                <div class="donation-item">
+                    <input type="text" name="donationType" placeholder="Donation Type (e.g., Clothes)">
+                    <input type="number" name="donationCount" placeholder="Number of Items" min="1">
+                </div>
+                <div class="donation-item">
+                    <input type="text" name="donationType" placeholder="Donation Type (e.g., Food)">
+                    <input type="number" name="donationCount" placeholder="Number of Items" min="1">
+                </div>
+            </div>
+            <div class="add-more">
+                <button type="button" id="add-more">Add More</button>
+            </div>
+            <button type="submit">Submit Donation</button>
+        </form>
+        <div class="donate-money">
+            <a href="donate-money.html">Donate Money</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Address Section -->
+        <h3>Enter Your Address</h3>
+        <form id="address-form">
+            <label for="street">Street</label>
+            <input type="text" id="street" name="street" placeholder="e.g., Main Road">
+            <span class="warning" id="street-warning">Street cannot be empty!</span>
+
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" placeholder="e.g., New York">
+            <span class="warning" id="city-warning">City cannot be empty!</span>
+
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" placeholder="e.g., NY">
+            <span class="warning" id="state-warning">State cannot be empty!</span>
+
+            <label for="pincode">Pincode</label>
+            <input type="text" id="pincode" name="pincode" placeholder="e.g., 10001">
+            <span class="warning" id="pincode-warning">Pincode cannot be empty!</span>
+
+            <label for="landmark">Landmark</label>
+            <input type="text" id="landmark" name="landmark" placeholder="e.g., Near Central Park">
+            <span class="warning" id="landmark-warning">Landmark cannot be empty!</span>
+            
+            <button type="submit">Submit Address</button>
+        </form>
+    </div>
+
+    <script src="script_donation.js"></script>
+</body>
+</html>

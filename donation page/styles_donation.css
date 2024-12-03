@@ -1,0 +1,103 @@
+body {
+
+    background-image: url("backiee-179449.jpg");
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-image: url('imagesbackground.jpg'); /* Add the background image */
+    background-size: cover; /* Make the image cover the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.donation-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+input, button {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="text"] {
+    flex: 2;
+}
+
+input[type="number"] {
+    flex: 1;
+}
+
+button {
+    background-color: #f04;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d20404;
+}
+
+.warning {
+    color: red;
+    font-size: 0.9rem;
+    display: none;
+}
+
+.add-more {
+    text-align: right;
+    margin-top: -10px;
+}
+
+.add-more button {
+    font-size: 0.9rem;
+    padding: 8px 15px;
+}
+
+.donate-money {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.donate-money a {
+    color: #fff;
+    background-color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.donate-money a:hover {
+    background-color: #555;
+}
