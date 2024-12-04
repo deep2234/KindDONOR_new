@@ -217,7 +217,7 @@ header nav ul {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.5); /* Transparent background */
+    background-image: url("dbf0f3.png");   
     box-shadow: 0 5px 20px rgb(0, 0, 0);
     border-radius: 15px;
 }
