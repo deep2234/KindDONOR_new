@@ -64,6 +64,7 @@ addressForm.addEventListener('submit', (e) => {
     const state = document.getElementById('state').value.trim();
     const pincode = document.getElementById('pincode').value.trim();
     const landmark = document.getElementById('landmark').value.trim();
+    const Phone_Number = document.getElementById('Phone_Number').value.trim();
 
     let valid = true;
 
@@ -100,6 +101,12 @@ addressForm.addEventListener('submit', (e) => {
         valid = false;
     } else {
         document.getElementById('landmark-warning').style.display = 'none';
+    }
+    if (!Phone_Number) {
+        document.getElementById('Phone_Number-warning').style.display = 'inline';
+        valid = false;
+    } else {
+        document.getElementById('Phone_Number-warning').style.display = 'none';
     }
 
     if (valid) {
